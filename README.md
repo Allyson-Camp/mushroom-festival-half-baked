@@ -1,3 +1,12 @@
+Plan:
+
+## html 
+- input / button
+- 
+
+## state
+- player mushrooms
+
 # Mushroom Festival
 
 Oh no, the prior developer ate a bad mushroom and the app is incomplete! Your goal is to write the code needed to get the rest of the app to work properly. Make sure to have at least one a commit for each of the requirements/rubric items.
@@ -51,3 +60,4 @@ It's so easy to imagine new features for games.
 -   What if there were three trees in the forest, and you clicked on one to figure out where a mushroom is (like hide and seek from day 1?)
 -   What if some mushrooms were poison and render differently? And you could only feed them to animals who are resistant to that poison?
 -   etc etc etc
+
