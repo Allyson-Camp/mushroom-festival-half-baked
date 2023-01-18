@@ -77,16 +77,18 @@ function displayFriends() {
                     //and if the friend's satisfaction level is below 3 and you have mushrooms left DONE
                 friend.satisfaction++;
                 mushroomCount--;
-
-                // //alert here????? 
-                if (mushroomCount === 0) {
-                    alert('Go forage for another mushroom!');
-                }
-
                     //increment the friends satisfaction and decrement your mushrooms DONE
                     //clear out and display the updated friends and mushrooms (hint: displayFriends, displayMushrooms)
                 displayFriends();
                 displayMushrooms();
+
+        //alerts to go forage for more or person is full
+            } else if (friend.satisfaction === 3) {
+                alert('All full! Give mushrooms to someone else!');
+                return;
+            } else if (mushroomCount === 0){
+                alert('Go forage for another mushroom!');
+                return;
             }
         });
         // append the friendEl to the friends list in DOM
