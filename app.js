@@ -46,7 +46,7 @@ addFriendButton.addEventListener('click', () => {
     // create a new friend object
     const newFriend = {
         name: friendName || `Rando ${Math.floor(Math.random() * 200)}`,
-        satisfaction: Math.ceil(Math.random() * 3)
+        satisfaction: 1,
     };
 
     console.log(newFriend);
