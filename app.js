@@ -49,18 +49,13 @@ addFriendButton.addEventListener('click', () => {
         satisfaction: 1,
     };
 
-    console.log(newFriend);
-    //dont create new box if no name is in the input
-    // if (!friendName) {
-    //     return;
-    // }
     // push it into the friends state array, passed in as an argument
     friendData.push(newFriend);
     // clear out the input element
     friendInputEl.value = '';
     // clear out and display all the friends (use a function here)
     
-    displayFriends(); //!!!!called function that will build below
+    displayFriends(); 
 });
 
 function displayFriends() {
